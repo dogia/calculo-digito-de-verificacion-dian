@@ -1,4 +1,5 @@
 function  calcularDigitoVerificacion ( myNit )  {
+  myNit = myNit + ''; //Parseamos a string por si nos dan un int
   var vpri,
       x,
       y,
